@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.trendingapp"
+    namespace = "com.example.movies"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.trendingapp"
+        applicationId = "com.example.movies"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
@@ -102,8 +102,8 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     implementation("androidx.room:room-paging:2.6.1")
 
-    // bottom navigation and other stuff
-    implementation("androidx.compose.material:material:1.6.0")
+    // youtube Integration
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
 }
 
 kapt {
