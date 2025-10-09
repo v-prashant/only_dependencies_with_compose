@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -104,6 +105,11 @@ dependencies {
 
     // youtube Integration
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+
+    //compose navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.kotlinx.serialization.json)
+
 }
 
 kapt {
