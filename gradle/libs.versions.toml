@@ -24,6 +24,7 @@ okhttp = "5.2.1"
 coilCompose = "2.7.0"
 room = "2.8.2"
 youtubePlayer = "13.0.0"
+googleLocation = "21.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -63,6 +64,7 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
 youtube-player-core = { group = "com.pierfrancescosoffritti.androidyoutubeplayer", name = "core", version.ref = "youtubePlayer" }
+location-service = { group = "com.google.android.gms", name = "play-services-location", version.ref = "googleLocation"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
