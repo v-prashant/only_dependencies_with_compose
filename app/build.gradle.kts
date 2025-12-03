@@ -110,6 +110,10 @@ dependencies {
     //location
     implementation(libs.location.service)
 
+    //work manager
+    implementation(libs.work.manager)
+    implementation(libs.work.manager.ktx)
+
 }
 
 kapt {
