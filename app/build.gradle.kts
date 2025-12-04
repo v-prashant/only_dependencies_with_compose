@@ -113,6 +113,8 @@ dependencies {
     //work manager
     implementation(libs.work.manager)
     implementation(libs.work.manager.ktx)
+    implementation(libs.hilt.work)
+    kapt(libs.hilt.work.compiler)
 
 }
 
