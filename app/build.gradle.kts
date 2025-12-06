@@ -116,6 +116,10 @@ dependencies {
     implementation(libs.hilt.work)
     kapt(libs.hilt.work.compiler)
 
+    // video/mp3 player
+    implementation(libs.exo.player)
+    implementation(libs.exo.player.ui)
+
 }
 
 kapt {
